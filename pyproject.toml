@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bouncelayer"
+version = "1.0.2"
+authors = [
+  { name="BounceLayer", email="support@bouncelayer.com" },
+]
+description = "Official Python SDK for BounceLayer Email Verification API"
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["email verification", "email validation", "email verifier", "email checker", "disposable email", "catch-all", "bounce", "deliverability", "bulk email verification", "email verification api", "bouncelayer"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Communications :: Email",
+]
+
+[project.urls]
+"Homepage" = "https://bouncelayer.com"
+"Documentation" = "https://bouncelayer.com/docs"
+"Pricing" = "https://bouncelayer.com/pricing"
+"Source" = "https://github.com/BounceLayer/bouncelayer-python"
